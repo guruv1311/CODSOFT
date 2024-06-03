@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cal.css">
+    <link rel="icon" href="img2.png">
+    <title>calculator</title>
+</head>
+<body>
+    <div class='body'>
+        <nav>
+            <ul class="menu">
+                <!-- <li><a href='/'>C</a></li>
+                <li><a href='/'>A</a></li>
+                <li><a href='/'>L</a></li>
+                <li><a href='/'>C</a></li>
+                <li><a href='/'>I</a></li> -->
+            </ul>
+        </nav>
+        <center><h2> BASIC CALCULATOR</h2></center>
+        <div class="calculator">
+            <div class="calculator-display" id="calculator-display"></div>
+            <div class="calculator-buttons">
+                <button onclick="handleClear()">AC</button>
+                <button onclick="backspace()" value="C">C</button>
+                <button onclick="handleButtonClick('')">---</button>
+                <button onclick="handleButtonClick('/')">/</button>
+                <button onclick="handleButtonClick('7')">7</button>
+                <button onclick="handleButtonClick('8')">8</button>
+                <button onclick="handleButtonClick('9')">9</button>
+                <button onclick="handleButtonClick('*')">*</button>
+                <button onclick="handleButtonClick('4')">4</button>
+                <button onclick="handleButtonClick('5')">5</button>
+                <button onclick="handleButtonClick('6')">6</button>
+                <button onclick="handleButtonClick('-')">-</button>
+                <button onclick="handleButtonClick('1')">1</button>
+                <button onclick="handleButtonClick('2')">2</button>
+                <button onclick="handleButtonClick('3')">3</button>
+                <button onclick="handleButtonClick('+')">+</button>
+                <button onclick="handleButtonClick('%')"> % </button>
+                <button onclick="handleButtonClick('0')">0</button>
+                <button onclick="handleButtonClick('.')"> . </button>
+                <button onclick="handleCalculate()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="Cal.js"></script>
+</body>
+</html>
